@@ -1,0 +1,41 @@
+# NestJS project build and dependencies
+project/node_modules
+project/dist
+project/build
+
+# Logs
+project/logs
+project/*.log
+project/npm-debug.log*
+project/yarn-debug.log*
+project/pnpm-debug.log*
+project/lerna-debug.log*
+
+# Environment variables
+project/.env
+project/.env.local
+project/.env.*.local
+
+# Test coverage
+project/coverage
+project/.nyc_output
+
+# IDEs and editors
+project/.idea
+project/.vscode/*
+!project/.vscode/settings.json
+!project/.vscode/tasks.json
+!project/.vscode/launch.json
+!project/.vscode/extensions.json
+
+# OS and runtime files
+project/.DS_Store
+project/.tmp
+project/.temp
+project/pids
+project/*.pid
+project/*.seed
+project/*.pid.lock
+
+# Diagnostic reports
+project/report.*.json
