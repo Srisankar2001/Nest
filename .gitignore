@@ -1,41 +1,41 @@
-# NestJS project build and dependencies
-project/node_modules
-project/dist
-project/build
+# Ignore Node dependencies and build outputs in any folder
+**/node_modules/
+**/dist/
+**/build/
 
 # Logs
-project/logs
-project/*.log
-project/npm-debug.log*
-project/yarn-debug.log*
-project/pnpm-debug.log*
-project/lerna-debug.log*
+**/logs/
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/pnpm-debug.log*
+**/lerna-debug.log*
 
 # Environment variables
-project/.env
-project/.env.local
-project/.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
 
 # Test coverage
-project/coverage
-project/.nyc_output
+**/coverage/
+**/.nyc_output/
 
-# IDEs and editors
-project/.idea
-project/.vscode/*
-!project/.vscode/settings.json
-!project/.vscode/tasks.json
-!project/.vscode/launch.json
-!project/.vscode/extensions.json
+# IDE/editor files
+**/.idea/
+**/.vscode/
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+!**/.vscode/extensions.json
 
-# OS and runtime files
-project/.DS_Store
-project/.tmp
-project/.temp
-project/pids
-project/*.pid
-project/*.seed
-project/*.pid.lock
+# OS and temporary files
+**/.DS_Store
+**/.tmp/
+**/.temp/
+**/pids/
+**/*.pid
+**/*.seed
+**/*.pid.lock
 
 # Diagnostic reports
-project/report.*.json
+**/report.*.json
